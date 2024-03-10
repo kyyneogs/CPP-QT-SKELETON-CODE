@@ -2,10 +2,14 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QLineEdit>
 
 class Widget : public QWidget
 {
     Q_OBJECT
+
+private:
+    QLineEdit *lineEdit;
 
 public:
     Widget(QWidget *parent = nullptr);
