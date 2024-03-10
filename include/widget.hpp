@@ -2,10 +2,14 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include <QPushButton>
 
 class Widget : public QWidget
 {
     Q_OBJECT
+
+private:
+    QPushButton *btn;
 
 public:
     Widget(QWidget *parent = nullptr);
