@@ -6,6 +6,7 @@
                 "${workspaceFolder}/**",
                 "/opt/homebrew/Cellar/qt/6.6.2_1/lib/",
                 "/opt/homebrew/Cellar/qt/6.6.2_1/lib/QtWidgets.framework/Headers",
+                "/opt/homebrew/Cellar/qt/6.6.2_1/lib/QtCore.framework/Headers",
                 "/opt/homebrew/Cellar/qt/6.6.2_1/include"
             ],
             "defines": [],
