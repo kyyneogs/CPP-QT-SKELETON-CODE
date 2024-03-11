@@ -1,5 +1,4 @@
-#include "../include/widget.hpp"
-
+#include <widget.hpp>
 #include <QApplication>
 
 int main(int argc, char *argv[])
